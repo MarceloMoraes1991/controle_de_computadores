@@ -124,7 +124,7 @@ CREATE TABLE `usuario` (
 
 LOCK TABLES `usuario` WRITE;
 /*!40000 ALTER TABLE `usuario` DISABLE KEYS */;
-INSERT INTO `usuario` VALUES (3,'TASSIO','tassio@gmail.com','202cb962ac59075b964b07152d234b70',2),(4,'teste','teste@gmail.com','202cb962ac59075b964b07152d234b70',2),(5,'Administrador','admin@gmail.com','21232f297a57a5a743894a0e4a801fc3',1);
+INSERT INTO `usuario` VALUES (2,'usuario','teste@gmail.com','202cb962ac59075b964b07152d234b70',2), (1,'Administrador','admin@gmail.com','21232f297a57a5a743894a0e4a801fc3',1);
 /*!40000 ALTER TABLE `usuario` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
